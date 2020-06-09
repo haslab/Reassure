@@ -1,0 +1,32 @@
+# TEE Resources
+
+## Articles
+- [Curate list of TEE Resources](https://github.com/enovella/TEE-reversing)
+- [Introduction to Trusted Execution Environemnt: ARM's TrustZone](https://blog.quarkslab.com/introduction-to-trusted-execution-environment-arms-trustzone.html)
+- [HKG15-311: OP-TEE for Beginners and Porting Review (video)](https://www.youtube.com/watch?v=Fksx4-bpHRY)
+- [Analysis of Qualcomm Secure Boot Chains](https://blog.quarkslab.com/analysis-of-qualcomm-secure-boot-chains.html)
+- [Secure storage updates - SFO17-309 (video)](https://www.youtube.com/watch?v=k61PiuFrc_U&feature=youtu.be)
+- [Compilation of presentations on ARM's Trusted Firmware-A](https://developer.trustedfirmware.org/w/tf_a/)
+- [An Exploration of ARM TrustZone Technology](https://genode.org/documentation/articles/trustzone)
+- [A Deep Dive Into Samsung's TrustZone (Part 1)](https://blog.quarkslab.com/a-deep-dive-into-samsungs-trustzone-part-1.html)
+- [Bring Light To The Darkness](https://bkerler.github.io/2019/11/15/bring-light-to-the-darkness/)
+- [Understanding Trusted Execution Environments and Arm TrustZone](https://azeria-labs.com/trusted-execution-environments-tee-and-trustzone/)
+- [Hardware Solutions To Highly-Adversarial Environments Part 1: Whitebox Crypto vs Smart Cards vs Secure Elements vs Host-Card Emulation (HCE)](https://www.cryptologie.net/article/499/hardware-solutions-to-highly-adversarial-environments-whitebox-crypto-vs-tpm-vs-tee-vs-secure-enclaves-vs-secure-elements-vs-hsm-vs-cloudhsm-vs-kms-part-1/)
+- [Hardware Solutions To Highly-Adversarial Environments Part 2: HSM vs TPM vs Secure Enclave](https://www.cryptologie.net/article/500/hardware-solutions-to-highly-adversarial-environments-part-2-hsm-vs-tpm-vs-secure-enclave/)
+- [MesaTEE: A Framework for Universal Secure Computing](https://mesatee.org/)
+
+## Attacks/Exploits
+- [Trust Issues: Exploiting TrustZone TEEs ](https://googleprojectzero.blogspot.com/2017/07/trust-issues-exploiting-trustzone-tees.html)
+- [Getting arbitrary code execution in TrustZone's kernel from any context](https://bits-please.blogspot.com/2015/03/getting-arbitrary-code-execution-in.html)
+- [Exploring Qualcomm's TrustZone implementation](https://bits-please.blogspot.com/2015/08/exploring-qualcomms-trustzone.html)
+- [Full TrustZone exploit for MSM8974](https://bits-please.blogspot.com/2015/08/full-trustzone-exploit-for-msm8974.html)
+- [Android linux kernel privilege escalation vulnerability and exploit (CVE-2014-4322)](https://bits-please.blogspot.com/2015/08/android-linux-kernel-privilege.html)
+- [Android privilege escalation to mediaserver from zero permissions (CVE-2014-7920 + CVE-2014-7921)](https://bits-please.blogspot.com/2016/01/android-privilege-escalation-to.html)
+- [Exploring Qualcomm's Secure Execution Environment](https://bits-please.blogspot.com/2016/04/exploring-qualcomms-secure-execution.html)
+- [QSEE privilege escalation vulnerability and exploit (CVE-2015-6639)](https://bits-please.blogspot.com/2016/05/qsee-privilege-escalation-vulnerability.html)
+- [War of the Worlds - Hijacking the Linux Kernel from QSEE](https://bits-please.blogspot.com/2016/05/war-of-worlds-hijacking-linux-kernel.html)
+- [TrustZone Kernel Privilege Escalation (CVE-2016-2431)](https://bits-please.blogspot.com/2016/06/trustzone-kernel-privilege-escalation.html)
+- [Extracting Qualcomm's KeyMaster Keys - Breaking Android Full Disk Encryption](https://bits-please.blogspot.com/2016/06/extracting-qualcomms-keymaster-keys.html)
+- [Amlogic S905 SoC: bypassing the (not so) Secure Boot to dump the BootROM](https://fredericb.info/2016/10/amlogic-s905-soc-bypassing-not-so.html)
+- [Plundervolt – Yet Another Attack on SGX, with Roots in 20 Year-Old Research](https://www.unboundtech.com/plundervolt-yet-another-attack-sgx-roots-20-year-old-research/)
+- [LVI - Hijacking Transient Execution with Load Value Injection](https://lviattack.eu/)
