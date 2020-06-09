@@ -1,0 +1,13 @@
+export V?=0
+
+HOST_CROSS_COMPILE ?= $(CROSS_COMPILE)
+TA_CROSS_COMPILE ?= $(CROSS_COMPILE)
+
+.PHONY: all
+all:
+	$(MAKE) -C ta CROSS_COMPILE="$(TA_CROSS_COMPILE)" LDFLAGS=""
+
+
+.PHONY: clean
+clean:
+	$(MAKE) -C ta clean
