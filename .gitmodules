@@ -1,0 +1,9 @@
+[submodule "optee_client"]
+	path = optee_client
+	url = https://github.com/MQuaresma/optee_client.git
+[submodule "optee_os"]
+	path = optee_os
+	url = https://github.com/MQuaresma/optee_os.git
+[submodule "arm-trusted-firmware"]
+	path = arm-trusted-firmware
+	url = https://github.com/MQuaresma/arm-trusted-firmware.git
