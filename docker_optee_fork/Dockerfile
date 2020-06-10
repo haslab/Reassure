@@ -72,9 +72,7 @@ RUN mkdir -p /home/optee/bin
 RUN mkdir -p /home/optee/.repo/manifests
 WORKDIR /home/optee/qemu-optee
 
-COPY --chown=optee qemu_v8.xml .
-
-RUN /bin/repo init -m $PWD/qemu_v8.xml
+RUN /bin/repo init -u https://github.com/haslab/Reassure.git
 RUN /bin/repo sync --no-clone-bundle
 
 WORKDIR /home/optee/qemu-optee/build
